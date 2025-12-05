@@ -9,9 +9,9 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.qklpgqe.mongodb.net
-      MONGODB_USERNAME: cloudcomputingftn
-      MONGODB_PASSWORD: EtpKS03POXyStH66
+      MONGODB_CLUSTER_ADDRESS: cluster0.725n4gp.mongodb.net
+      MONGODB_USERNAME: oblakftn_db_user
+      MONGODB_PASSWORD: aKK1ei2hisLBn6A4
       MONGODB_DB_NAME: test
       PORT: 8080
     environment: testing
