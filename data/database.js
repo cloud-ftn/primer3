@@ -37,6 +37,6 @@ try {
   throw error;  // do NOT continue with a closed client
 }
 
-run().catch(console.dir);
+const database = client.db("admin");
 
 export default database;
